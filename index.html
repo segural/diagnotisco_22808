@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="bigbox">
+        <div class="img">
+            <img src="./imagen.jpg" alt="">
+        </div>
+        <div class="text">
+            <div class="title">
+                ESTILO CAMPO
+            </div>
+            <div class="description">
+                Los mejores lugares para tomar vacaciones, habitaciones confonrtables y de un estilo rústico natural que propician el descanso perfecto de la rutina.
+            </div>
+            <div class="botton">
+                + Info
+            </div>
+        </div>
+    </div>
+</body>
+<style>
+    .bigbox{
+        width: 42%;
+        margin: auto;
+        display: flex;
+        border: 8px brown solid;
+        border-radius: 5%;
+        background-color: #ccb693;
+        font-family: 'Noto Serif', serif;
+    }
+    .img img{
+        border-radius: 5%;
+        height: 100%;
+    }
+    .text{
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+    }
+    .title{
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .description{
+        font-size: 20px;
+        word-wrap: break-word;
+        margin-bottom: 40px;      
+    }
+    .botton{
+        font-size: 25px;
+        font-weight: 700;
+        color: brown;
+    }
+</style>
+</html>
